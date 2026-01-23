@@ -1,6 +1,6 @@
 # Vaibhav Soni - Full Stack Developer Portfolio
 
-A production-grade, minimal, Japanese-style portfolio specifically designed for the HENNGE Global Internship Program (Full Stack Software Engineering pathway).
+A production-grade, minimal, Modern-style portfolio specifically designed for Full Stack Software Engineering pathway.
 
 ## Overview
 
@@ -71,34 +71,6 @@ FullStackPortfolio/
 └── next.config.js
 ```
 
-## Build for Production
-
-```bash
-npm run build
-npm start
-```
-
-## Deployment
-
-### Vercel (Recommended)
-
-1. Push code to GitHub
-2. Import project in Vercel
-3. Deploy automatically
-
-### Netlify
-
-1. Build the project: `npm run build`
-2. Deploy the `.next` folder
-
-### Manual Deployment
-
-```bash
-npm run build
-```
-
-Then deploy the `.next` folder to your hosting provider.
-
 ## Assets Required
 
 Place the following files in the `public/assets/` directory:
@@ -112,7 +84,7 @@ Place the following files in the `public/assets/` directory:
 ## Design Principles
 
 - **Minimal & Clean**: No unnecessary decorations
-- **Professional**: Japanese SaaS dashboard aesthetic
+- **Professional**: Modern SaaS dashboard aesthetic
 - **Accessible**: Semantic HTML and proper contrast
 - **Responsive**: Mobile-first approach
 - **Performance**: Optimized images and code splitting
