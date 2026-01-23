@@ -1,0 +1,37 @@
+.languagesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: var(--spacing-lg);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.languageCard {
+  text-align: center;
+  padding: var(--spacing-xl);
+}
+
+.icon {
+  color: var(--color-accent);
+  margin: 0 auto var(--spacing-md);
+}
+
+.languageName {
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0 0 var(--spacing-xs) 0;
+}
+
+.languageLevel {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  margin: 0;
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .languagesGrid {
+    grid-template-columns: 1fr;
+  }
+}
