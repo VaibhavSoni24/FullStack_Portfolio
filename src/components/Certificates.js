@@ -3,52 +3,24 @@ import { Award, ExternalLink } from 'lucide-react'
 
 const certificates = [
   {
-    title: "TiE Global Summit - Rajasthan Digifest Hackathon 2025",
-    description: "Municipality management app (CivicSaathi) using Next.js and Django"
+    title: "IIT Guwahati - Summer Analytics Program",
+    description: "Completed Summer Analytics program with Top 25% performance."
   },
   {
-    title: "Sphinx MNIT Jaipur Hackathon",
-    description: "Real-time call analyzer with MOM generation"
+    title: "Accenture (Forage) - Software Engineering Simulation",
+    description: "Hands-on virtual simulation focused on software engineering workflows and delivery practices."
   },
   {
-    title: "CollegeTips.in Web Development Internship",
-    description: "One month remote internship, built production UI components"
+    title: "NPTEL - Programming in Java",
+    description: "Academic certification covering Java programming fundamentals and applied problem solving."
   },
   {
-    title: "HackHazards 2025",
-    description: "Personalized story writer app (DreamWeaver) powered by LLaMA 3 API"
+    title: "Google - AI Workshop",
+    description: "Training focused on practical AI workflows and applied development opportunities."
   },
   {
-    title: "DevSummit 2025",
-    description: "Healthcare platform (CareConnect) powered by AI"
-  },
-  {
-    title: "Innovastra 2025",
-    description: "Live language translator (FluentMate) using Flask"
-  },
-  {
-    title: "WSA Full Stack Training & Internship 2024",
-    description: "WebStack Academy comprehensive full stack program"
-  },
-  {
-    title: "SkyySkill Chat App Development",
-    description: "Online workshop, built real-time chat app using Socket.io"
-  },
-  {
-    title: "EduChain Blockchain Basics",
-    description: "Blockchain fundamentals workshop at JECRC University"
-  },
-  {
-    title: "Code Crunch 2023",
-    description: "Internal college competition, signup/login system with Firebase"
-  },
-  {
-    title: "HP Life - Effective Business Website Building",
-    description: "Website development course"
-  },
-  {
-    title: "PW Web Development Basics",
-    description: "Foundational web development course"
+    title: "HP Life - Agile & Data Analytics",
+    description: "Industry-oriented learning on agile execution and data analytics fundamentals."
   }
 ]
 
@@ -56,7 +28,7 @@ export default function Certificates() {
   return (
     <section className="section" id="certificates" style={{backgroundColor: 'var(--color-bg-secondary)'}}>
       <div className="container">
-        <h2 className="section-title">Certificates</h2>
+        <h2 className="section-title">Selected Certifications & Training</h2>
         
         <div className="grid grid-3">
           {certificates.map((cert, index) => (

@@ -19,6 +19,29 @@
   gap: var(--spacing-md);
 }
 
+.contactRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+}
+
+.contactItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  background: var(--color-bg-secondary);
+}
+
+a.contactItem:hover {
+  color: var(--color-text);
+  border-color: var(--color-accent);
+}
+
 .name {
   font-size: var(--font-size-4xl);
   font-weight: 600;
@@ -37,7 +60,15 @@
   font-size: var(--font-size-lg);
   color: var(--color-text-secondary);
   line-height: 1.7;
-  margin: var(--spacing-sm) 0;
+  margin: var(--spacing-sm) 0 0 0;
+  max-width: 700px;
+}
+
+.taglineSecondary {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+  margin: 0;
   max-width: 500px;
 }
 
@@ -82,6 +113,10 @@
   }
   
   .tagline {
+    max-width: 100%;
+  }
+
+  .taglineSecondary {
     max-width: 100%;
   }
   

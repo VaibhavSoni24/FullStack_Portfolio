@@ -14,7 +14,8 @@ export default function Footer() {
               <a href="#achievements">Achievements</a>
               <a href="#education">Education</a>
               <a href="#skills">Skills</a>
-              <a href="#certificates">Certificates</a>
+              <a href="#certificates">Selected Certifications</a>
+              <a href="#languages">Languages</a>
             </nav>
           </div>
           
@@ -51,12 +52,21 @@ export default function Footer() {
               >
                 <Linkedin size={20} />
               </a>
+              <a
+                href="https://vaibhavsonifullstackportfolio.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.socialLink}
+              >
+                <ExternalLink size={20} />
+              </a>
             </div>
           </div>
         </div>
         
         <div className={styles.footerBottom}>
           <p>© 2026 Vaibhav Soni. All rights reserved.</p>
+          <p>Updated till February 2026</p>
         </div>
       </div>
     </footer>

@@ -1,6 +1,6 @@
 import styles from './Achievements.module.css'
 import Image from 'next/image'
-import { Award, ExternalLink } from 'lucide-react'
+import { Award } from 'lucide-react'
 
 const achievements = [
   {
@@ -16,6 +16,24 @@ const achievements = [
     project: "CivicSaathi",
     projectLink: "#civicsaathi",
     image: "/assets/digifest.jpeg"
+  },
+  {
+    title: 'Enigma RIET Hackathon 2026',
+    achievement: 'Top 10',
+    project: 'National-level hackathon placement',
+    image: '/assets/enigmariet.jpeg'
+  },
+  {
+    title: 'HackJKLU Hackathon 2026',
+    achievement: 'Top 30',
+    project: 'National-level hackathon placement',
+    image: '/assets/hackjklu.jpeg'
+  },
+  {
+    title: 'IIT Guwahati Summer Analytics Program',
+    achievement: 'Top 25%',
+    project: 'Recognized for strong analytical performance',
+    image: '/assets/summeranalytics.png'
   }
 ]
 
@@ -28,15 +46,17 @@ export default function Achievements() {
         <div className="grid grid-2">
           {achievements.map((achievement, index) => (
             <div key={index} className={`card ${styles.achievementCard}`}>
-              <div className={styles.imageWrapper}>
-                <Image 
-                  src={achievement.image}
-                  alt={achievement.title}
-                  width={600}
-                  height={400}
-                  className={styles.achievementImage}
-                />
-              </div>
+              {achievement.image && (
+                <div className={styles.imageWrapper}>
+                  <Image
+                    src={achievement.image}
+                    alt={achievement.title}
+                    width={600}
+                    height={400}
+                    className={styles.achievementImage}
+                  />
+                </div>
+              )}
               
               <div className={styles.achievementContent}>
                 <div className={styles.achievementHeader}>
@@ -49,9 +69,15 @@ export default function Achievements() {
                 </div>
                 
                 <p className={styles.projectInfo}>
-                  Project: <a href={achievement.projectLink} className={styles.projectLink}>
-                    {achievement.project}
-                  </a>
+                  {achievement.projectLink ? (
+                    <>
+                      Project: <a href={achievement.projectLink} className={styles.projectLink}>
+                        {achievement.project}
+                      </a>
+                    </>
+                  ) : (
+                    achievement.project
+                  )}
                 </p>
               </div>
             </div>

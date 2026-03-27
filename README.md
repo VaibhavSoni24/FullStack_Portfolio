@@ -5,6 +5,7 @@ A production-grade, minimal, Modern-style portfolio specifically designed for Fu
 ## Overview
 
 This portfolio showcases enterprise-grade projects, technical expertise, and professional experience with a focus on:
+
 - Backend & Cloud Engineering
 - Systems Architecture
 - Full Stack Development
@@ -29,22 +30,25 @@ This portfolio showcases enterprise-grade projects, technical expertise, and pro
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone <repository-url>
 cd FullStackPortfolio
 ```
 
-2. Install dependencies:
+1. Install dependencies:
+
 ```bash
 npm install
 ```
 
-3. Run the development server:
+1. Run the development server:
+
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+1. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Project Structure
 
@@ -113,7 +117,7 @@ Place the following files in the `public/assets/` directory:
 
 ## Contact
 
-- Email: vaibhavsoni280506@gmail.com
+- Email: <vaibhavsoni280506@gmail.com>
 - Phone: +91 6350366202
 - GitHub: [VaibhavSoni24](https://github.com/VaibhavSoni24)
 - LinkedIn: [Vaibhav Soni](https://www.linkedin.com/in/vaibhav-soni-867836285/)

@@ -3,27 +3,31 @@ import styles from './Skills.module.css'
 const skillCategories = [
   {
     title: "Languages",
-    skills: ["Python", "JavaScript", "TypeScript", "Solidity (Basic)"]
+    skills: ["JavaScript", "TypeScript", "Python", "C++", "Java", "SQL"]
   },
   {
     title: "Backend",
-    skills: ["Flask", "Django", "Node.js", "REST APIs"]
+    skills: ["Node.js", "Express.js", "Django", "Flask", "FastAPI", "REST APIs"]
   },
   {
     title: "Frontend",
-    skills: ["Next.js", "React", "HTML", "CSS"]
+    skills: ["React.js", "Next.js", "Angular (Basic)", "HTML", "CSS", "Tailwind CSS"]
   },
   {
     title: "Databases",
     skills: ["Firebase", "MySQL", "SQLite", "PostgreSQL"]
   },
   {
-    title: "Cloud & Tools",
-    skills: ["AWS (Basic)", "GCP (Basic)", "Azure (Basic)", "Git & GitHub"]
+    title: "Cloud & DevOps",
+    skills: ["AWS", "GCP", "Azure (Basic)", "Docker", "CI/CD (GitHub Actions, Cloud Build)"]
   },
   {
     title: "Concepts",
-    skills: ["Full Stack Development", "API Design", "Cloud Systems", "AI Integration"]
+    skills: ["Full-Stack Development", "API Design", "System Design", "AI Integration", "Microservices Basics"]
+  },
+  {
+    title: "Tools & Technologies",
+    skills: ["Git", "GitHub", "Postman", "Socket.io", "Redis", "GraphQL", "Three.js"]
   }
 ]
 
